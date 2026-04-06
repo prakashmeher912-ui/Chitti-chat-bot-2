@@ -1,4 +1,7 @@
 pyTelegramBotAPI==4.15.4
 Flask==3.0.2
 openai==1.13.3
-Flask, openai, gTTS, pyTelegramBotAPI
+Flask
+openai
+gTTS
+pyTelegramBotAPI
