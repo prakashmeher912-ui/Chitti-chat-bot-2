@@ -5,8 +5,8 @@ from flask import Flask
 from openai import OpenAI
 
 # 1. Fetch Environment Variables
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-HF_TOKEN = os.environ.get("HF_TOKEN")
+BOT_TOKEN = os.environ.get("8636349817:AAGz-aMhgizVSUfWxvwUxEnK6AB4zsVi-PQ")
+HF_TOKEN = os.environ.get("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")
 
 if not BOT_TOKEN or not HF_TOKEN:
     raise ValueError("BOT_TOKEN and HF_TOKEN must be set in environment variables.")
